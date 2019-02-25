@@ -1,0 +1,85 @@
+#sports-image{
+    background: url(https://d3qfk7u7s63iel.cloudfront.net/media/zoo/images/Multiple_sports_on_black_background_b53a92eb1af5757073b0db7fc693a27e.jpg)no-repeat;
+    background-size: cover;
+    width:90%;   
+    background-color:black; 
+}
+p,div,header{
+    color: red;
+    font-weight: bold;
+}
+header{
+    font-size: 50px;
+    text-align: center;
+    margin-right: 300px;
+}
+
+p,div{
+    float: left;
+    font-size: 30px;
+    color: white;
+}
+.row{
+    height: auto;
+    margin: auto; 
+}
+.contaier-fluid{
+    width: auto;
+    float: right;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+#generate{
+    margin-bottom: 15px;
+}
+#computerWord{
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+#gameplay{
+    background-color:transparent;
+    width: 400px;
+    overflow: auto;
+    height: 600px;
+    position: fixed;
+    right:100px;
+}
+#keyArray{
+   word-wrap: break-word;
+    padding-left: 50px;
+    margin-top: 30px;
+    position: absolute;
+    left: 0;
+}
+.text{
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+#scoreboard{
+    width:auto;
+    position: fixed;
+    left: 580px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: auto;
+    border: solid white 5px;
+    background-color: grey;
+
+}
+td{
+    color:white;
+    border: solid white;
+}
+#chances,#win,#lose,.center,#Game{
+    text-align: center;
+}
+#chances,#win,#lose,#Game{
+    color: red;
+    background-color: black;
+}
+.center{
+    background-color: black;
+}
