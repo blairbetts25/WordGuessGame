@@ -81,6 +81,10 @@ function wordGenerate() {
   theWord = topic[topicIndex].choices[choicesIndex];
   display.innerHTML = "Start typing letters to try and figure out the word! Your current topic is: "+ topic[topicIndex].name;
   choicesIndex++;
+  if (hiddenWord.includes("_") == true){
+    LoseTotal++;
+    loseBox.innerHTML = LoseTotal;
+  }
   if (choicesIndex == topic[topicIndex].choices.length) {
     topicIndex++;
     choicesIndex = 0;
